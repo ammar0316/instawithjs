@@ -1,0 +1,165 @@
+.insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 90px
+}
+.iphone {
+    position: absolute;
+    right: 0;
+    top: 18px;
+    height: 430px;
+    width: 190px;
+    border-radius: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    
+}
+#ipframe {
+    height: 500px;
+    width: 340px;
+}
+.img {
+    position: relative;
+    width:   300px;
+
+}
+.login{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+button {
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    border: blue 5px solid;
+    color: white;
+    border-radius: 5px;
+    font-style: oblique;
+}
+.amm {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+.mg  {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+}
+.login input {
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    border: black solid 2px;
+    border-radius: 10px;
+
+} 
+
+/* responsive part */
+@media screen and (max-width: 300px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .insta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 30px
+       
+        
+    }
+    .iphone {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        height: 240px;
+        width: 80px;
+        border-radius: 15px;
+        
+        /* border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+     */
+        
+    }
+    #ipframe {
+        height: 280px;
+        width: 150px;
+        
+    }
+    .img {
+        position: relative;
+        width:   130px;
+        
+    
+    }
+    .login{
+        height: 300px;
+        width: 200px;
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: ;
+        
+    }
+    h1 {
+        font-size: 25px;
+        font-style: italic;
+        font-weight: bold;
+        color:black;
+        
+    }
+    button {
+        height: 20px;
+        width: 80px;
+        background-color: blue;
+        border: blue 1px solid;
+        color: white;
+        border-radius: px;
+        font-style: oblique;
+        margin-top: -130px;
+    }
+    .amm {
+        height: 20px;
+        width: 50px;
+        border-radius: 10px;
+    }
+    .mg  {
+        display: flex;
+        margin-top: -70px;
+        gap: 5px;
+    }
+    .login input {
+        height: 15px;
+        width: 80px;
+        text-align: center;
+        border: black solid 2px;
+        border-radius: 5px;
+        
+    
+    } 
+    #in1 {
+        margin-top: -50px;
+    }
+    #in2 {
+        margin-top: -90px;
+    }
+
+
+     
+}
